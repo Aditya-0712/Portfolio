@@ -67,9 +67,9 @@ body
     display:flex;
     flex-direction: column;
     width:100%;
-    height: 400px;
-    margin:50px 0px 0px 0px;
-    background-image: url(3d-ab-1.png);
+    height: 450px;
+    margin:20px 0px 0px 0px;
+    background-image: url(3d-ab-2.png);
     background-size: cover;
 }
 
@@ -91,12 +91,12 @@ body
     font-family: popins;
     color:black;
     margin:20px auto 0px 10px;
-    background-image: url(yro.webp);
+    background-image: url(3d-1.jpg);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-font-smoothing: antialiased;
-    background-size: cover;
+    /* background-size: cover; */
     animation: slatt 1.5s ease-out;
     transition-duration: 0.5s;
 }
@@ -127,11 +127,14 @@ body
 .cont
 {
     display:flex;
-    font-size: 22px;
+    font-size: 25px;
     font-family: popins-reg;
-    color:black;
+    color:rgb(0, 0, 0);
     margin:0px 10px 0px 10px;
     transition-duration: 0.5s;
     position: relative;
-    bottom: 250px;
+    bottom: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
