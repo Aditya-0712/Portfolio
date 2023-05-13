@@ -146,7 +146,7 @@ body
     flex-direction: column;
     width: 100%;
     height:auto;
-    margin:50px 0px 100px 0px;
+    margin:50px 0px 60px 0px;
 }
 
 .part2 p:nth-child(1)
@@ -213,4 +213,84 @@ body
     font-family: popins-reg;
     color: black;
     margin:auto auto auto 10px;
+}
+
+.part3 
+{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+.title 
+{
+    display:flex;
+    width:fit-content;
+    height:auto;
+    margin:0px auto 0px auto;
+}
+
+.my 
+{
+    display:flex;
+    font-size:40px;
+    font-family: popins;
+    color:black;
+    margin:0;
+}
+
+.title div 
+{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    height: 60px;
+    margin:0px 0px 0px 15px;
+    overflow: hidden;
+}
+
+.title div p 
+{
+    display: flex;
+    font-size:40px;
+    font-family: popins;
+    color:black;
+    margin:0;
+    color:red;
+    animation:slideshow 8s ease-out infinite;
+}
+
+@keyframes slideshow 
+{
+    0% , 100% {transform: translateY(0);}
+    20% {transform: translateY(-60px);}
+    40% {transform: translateY(-120px);}
+    60% {transform: translateY(-180px);}    
+    80% {transform: translateY(-240px);}
+    99.99% {transform: translateY(-300px);}
+}
+
+.chelsea 
+{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    margin:50px auto 0px 25px;
+}
+
+.chelsea p:nth-child(1) , .chelsea p:nth-child(2)
+{
+    display: flex;
+    font-size: 30px;
+    font-family: popins-reg;
+    color:white;
+    margin: 0;
+}
+
+.chelsea p:nth-child(2)
+{
+    color:blue;
+    margin-left: 100px;
 }
