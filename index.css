@@ -215,6 +215,60 @@ body
     margin:auto auto auto 10px;
 }
 
+.creds 
+{
+    display:flex;
+    flex-direction: column;
+    margin:60px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.creds p:nth-child(1)
+{
+    display:flex;
+    margin: 0px auto 0px 25px;
+    font-size: 25px;
+    font-family: popins-reg;
+    color:black;
+}
+
+.creds div 
+{
+    display:flex;
+    margin:20px auto 0px 35px;
+    width: fit-content;
+}
+
+.creds div img
+{
+    /* width:40px; */
+    height: 40px;
+} 
+
+.creds div p 
+{
+    display:flex;
+    margin: auto 0px auto 20px;
+    font-size: 20px;
+    font-family: popins-reg;
+    color:rgb(144, 19, 19);
+}
+
+.creds div a 
+{
+    display: flex;
+    margin:auto 0px auto 35px;
+}
+
+.creds div svg
+{
+    display: flex;
+    width:20px;
+    margin:auto ;
+    fill:rgb(183, 0, 255);   
+}
+
 .part3 
 {
     display:flex;
@@ -259,7 +313,7 @@ body
     color:black;
     margin:0;
     color:red;
-    animation:slideshow 8s ease-out infinite;
+    animation:slideshow 7s ease-out infinite;
 }
 
 @keyframes slideshow 
@@ -270,4 +324,29 @@ body
     60% {transform: translateY(-180px);}    
     80% {transform: translateY(-240px);}
     99.99% {transform: translateY(-300px);}
+}
+
+.football
+{
+    display:flex;
+    width: 100%;
+    margin:50px 0px 0px 0px;
+    background-color: #BBBFCA;
+}
+
+.football p
+{
+    display:flex;
+    margin:0px auto 0px auto;
+    font-size:70px;
+    font-family:popins;
+    background-image: url(football.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    background-position: 40% 40%;
 }
