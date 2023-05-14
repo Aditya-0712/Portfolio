@@ -228,7 +228,7 @@ body
 {
     display:flex;
     margin: 0px auto 0px 25px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: popins-reg;
     color:black;
 }
@@ -236,14 +236,18 @@ body
 .creds div 
 {
     display:flex;
-    margin:20px auto 0px 35px;
-    width: fit-content;
+    margin:20px auto 0px 25px;
+    width: 290px;
+    padding:10px 15px 10px 15px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    border-radius:10px;
 }
 
 .creds div img
 {
     /* width:40px; */
     height: 40px;
+    border-radius: 5px;
 } 
 
 .creds div p 
@@ -258,7 +262,7 @@ body
 .creds div a 
 {
     display: flex;
-    margin:auto 0px auto 35px;
+    margin:auto 0px auto auto;
 }
 
 .creds div svg
@@ -329,12 +333,13 @@ body
 .football
 {
     display:flex;
+    flex-direction: column;
     width: 100%;
     margin:50px 0px 0px 0px;
     background-color: #BBBFCA;
 }
 
-.football p
+.foothead
 {
     display:flex;
     margin:0px auto 0px auto;
@@ -349,4 +354,58 @@ body
     background-repeat: no-repeat;
     font-weight: bolder;
     background-position: 40% 40%;
+}
+
+.isc 
+{
+    display: flex;
+    margin:0px auto 0px 0px;
+    width:fit-content;
+}
+
+.isc p 
+{
+    display:flex;
+    margin: 0px auto 0px 25px;
+    font-size: 30px;
+    font-family: popins-reg;
+    color:black;
+}
+
+.ilc , .flag
+{
+    display:flex;
+    width:300px;
+    border-radius: 5px;
+    margin:20px auto 0px 20px;
+}
+
+.flag 
+{
+    margin:0px 20px 0px auto;
+    position: relative;
+    bottom:50px;
+    z-index: 2;
+}
+
+.hz
+{
+    display:flex;
+    width:300px;
+    border-radius: 5px;
+    margin:0px auto 0px 20px;
+    position: relative;
+    bottom:70px;
+    z-index: 1;
+}
+
+.cup 
+{
+    display:flex;
+    width:300px;
+    border-radius: 5px;
+    margin:0px 20px 0px auto;
+    position: relative;
+    bottom:120px;
+    z-index: 0;
 }
