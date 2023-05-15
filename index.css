@@ -445,3 +445,53 @@ body
     background-repeat: no-repeat;
     font-weight: bold
 }
+
+.socials 
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:0;
+}
+
+.socials p:nth-child(1)
+{
+    display: flex;
+    font-size: 30px;
+    font-family: popins-reg;
+    color:black;
+    margin:40px auto 0px 25px;  
+    font-weight: bold;
+}
+
+.linq 
+{
+    display:flex;
+    width:100%;
+    margin:20px 0px 0px 0px;
+}
+
+.linq a 
+{
+    display:flex;
+    border-radius:5px;
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.linq a img 
+{
+    width:30px;
+    border-radius: 5px;
+}
+
+.linq a p 
+{
+    display: flex;
+    font-size: 20px;
+    font-family: popins-reg;
+    color:black;
+    margin:auto auto auto 15px;  
+}
